@@ -1,0 +1,4 @@
+---
+# https://galaxy.ansible.com/docs/contributing/creating_role.html#role-metadata
+
+dependencies: []
