@@ -1,0 +1,13 @@
+---
+# https://docs.ansible.com/ansible/latest/collections/ansible/builtin/user_module.html
+
+- name: "add user {{ user.primary.login }}"
+  ansible.builtin.user:
+    state: present
+    name: "{{ user.primary.login }}"
+    group: "{{ user.primary.login }}"
+    groups: "{{ user.primary.groups }}"
+    shell: "{{ user.primary.shell }}"
+    home: "{{ user.primary.home }}"
+    password: "{{ user.primary.hash }}"
+    uid: "{{ user.primary.uid }}"
