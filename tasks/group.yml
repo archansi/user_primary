@@ -1,0 +1,8 @@
+---
+# https://docs.ansible.com/ansible/latest/collections/ansible/builtin/group_module.html
+
+- name: "create group `{{ user.primary.login }}'"
+  ansible.builtin.group:
+    name: "{{ user.primary.login }}"
+    gid: "{{ user.primary.gid }}"
+    state: present
