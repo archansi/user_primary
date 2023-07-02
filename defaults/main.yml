@@ -9,7 +9,6 @@ user:
       - wheel
     shell: /bin/bash
     home: /home/anon
-    hash: "!*"
     key: "ssh-ed25519 AAAA0"
     uid: 7000
     gid: 7000

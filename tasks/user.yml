@@ -9,5 +9,4 @@
     groups: "{{ user.primary.groups }}"
     shell: "{{ user.primary.shell }}"
     home: "{{ user.primary.home }}"
-    password: "{{ user.primary.hash }}"
     uid: "{{ user.primary.uid }}"
