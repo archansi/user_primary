@@ -1,0 +1,6 @@
+---
+# https://docs.ansible.com/ansible/latest/collections/ansible/builtin/import_tasks_module.html
+
+- ansible.builtin.import_tasks: group.yml
+- ansible.builtin.import_tasks: user.yml
+- ansible.builtin.import_tasks: key.yml
